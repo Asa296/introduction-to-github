@@ -1,0 +1,15 @@
+        int sum = 0;
+        Console.WriteLine("Enter any number");
+        int num= int.Parse(Console.ReadLine());
+        while(num != 999)
+        {
+           
+            Console.WriteLine("ENter any number");
+            num= int.Parse(Console.ReadLine());
+            sum = sum + num;
+        }
+        Console.WriteLine("The sum of the number is {0} ",sum);
+        Console.ReadLine();
+
+    }
+}
